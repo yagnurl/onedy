@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* COLORS:
+primary: ##FF5722;
+secondary: #04004D;
+background-light:  #FDFDFD; (brands)
+main-background: #E5E5E5;
+text: #4D4D4D;
+text-muted: #848199;
+
+*/
+/* FONTS:
+Playfair Display (Bold)
+Poppins 400 500 600 700 800
+
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+body {
+    background-color: #FFFFFF;
+  
+    font-family: 'Poppins', sans-serif;
+}
+h1, h5{
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+.fs-54 {
+    font-size: 54px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+.text-bold {
+    font-weight: 800;
+}
+.text-semibold {
+    font-weight: 600;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-primary {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-secondary {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-outline-secondary {
+    border-color: #FF5722;
+    color: #FF5722;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited  {
+    background-color: #FF5722;
+    color: #f0f0f0;
+}
+.bg-primary {
+    background-color: #FF5722 !important;
+}
+.bg-secondary {
+    background-color:#04004D !important;
+}
+.bg-gray {
+   background-color: #FDFDFD !important;
+}
+.text-primary {
+    color: #FF5722 !important;
+}
+.text-secondary {
+    color: #04004D !important;
+}.text-muted {
+    color: #848199 !important;
+}
+.text {
+    color: #4D4D4D !important;
+}
+.bg-main {
+    background: rgb(238,224,202) ;
+}
+
+.bg-somon{
+    background-color: rgb(255, 87, 34, 0.16);
+}
+.bg-somon:hover{
+    background-color: #FF5722;
+    color: white !important;
+}
+.center {
+    text-align: center;
+}
+.border-2 {
+    border-color: #f0f0f0 !important;
+}
+
+.card-body {
+    display:flex !important;
+    flex-direction: column !important;
+justify-content:justify !important;
+align-items:center !important;
+}
+
+.ellipse {
+    position: absolute !important;
+    margin-top: 13%;
+    margin-left: -50px;
+    z-index: -1;
+}
+.video-icon{
+    position: absolute !important;
+    margin-top: 8%;
+    margin-left: 15%;
+   }
+
+    @media only screen and (max-width: 600px){
+        .ellipse{
+            display: none !important;
+        }
+        .video-icon{
+            display: none;
+            position: absolute !important;
+            margin-top: 55%;
+            margin-left: 40%;
+           }
+
+       
+   
+    }
+
+    
+    @media only screen and (min-width: 1800px){
+       .video-icon{
+        position: absolute !important;
+        margin-top: 6%;
+        margin-left: 12%;
+       } 
+
+       .ellipse {
+              position: absolute !important;
+    margin-top: 11%;
+    margin-left: -50px;
+    z-index: -1;
+       }
+       
+
+    }
+
+   
+
+   .carousel ol li {
+       margin: auto 5px;
+   
+   }
+
+   .carousel ol {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: -1% !important;
+  
+}
+   
+.card-img-overlay {
+    margin-top: -2.5rem;
+}
+
+
+.carousel-control-next-icon,.carousel-control-prev-icon , .carousel-indicators>li {
+    background-color: #c0c0c0;
+}
