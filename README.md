@@ -3,7 +3,7 @@
  Onedy is a website about an online education platform.
 This website is made with **Bootstrap 5.** by Yağnur Tetikcan.
 
-[![Preview](Preview "Preview")](https://github.com/yagnurl/onedy/blob/main/onedy.png "Preview")
+[![Preview](Preview "Preview")](onedy/onedy.png "Preview")
 
 
 
