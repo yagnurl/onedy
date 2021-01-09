@@ -1,5 +1,5 @@
 #Onedy  
-[![onedy.netlify.app/](https://onedy.netlify.app/)]()
+[![onedy.netlify.app/](https://onedy.netlify.app/)]
 
  Onedy is a website about an online education platform.
 This website is made with **Bootstrap 5.** by Yağnur Tetikcan.
